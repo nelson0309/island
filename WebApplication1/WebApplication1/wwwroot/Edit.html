@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Edit</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="button" id="btnUpdate" value="更新" />
+        <span id="msg"></span>
+    </div>
+
+    <script type="text/javascript">
+        $("#btnUpdate").click(function () {
+            $.ajax({
+                //請求模式
+                type: "put",
+                //請求的URL
+                url: "api/UserTable1/1000006",
+                //預期server responde的資料型態
+                dataType: "text",
+                //請求送出發送的資料(body內文json字串)
+                data: JSON.stringify({
+                    "userId": 1000006,
+                    "userName": "KONO11",
+                    "userSex": "Male",
+                    "email": "f5f911d2f@yahoo.com.tw",
+                    "phone": "0910699129",
+                    "cellPhone": "0910699129",
+                    "area": "Taipei",
+                    "ability": "JAVA",
+                    "useState": "SAVE",
+                    "createTime": "2022-11-15T00:00:00",
+                    "modifier": "Nelson",
+                    "changeTime": "2022-11-15T00:00:00"
+                }),
+                //內文型態
+                contentType: "application/json",
+                success: function (result) {
+                    $("#msg").text(result);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

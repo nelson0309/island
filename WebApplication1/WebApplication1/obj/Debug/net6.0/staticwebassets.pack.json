@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\Index - 複製.html",
+      "PackagePath": "staticwebassets\\Index - 複製.html"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\bootstrap.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.intellisense.js",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.js",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.min.map",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.slim.js",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.slim.min.js",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery-3.4.1.slim.min.map",
+      "PackagePath": "staticwebassets\\css\\jquery-3.4.1.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\css\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\css\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\css\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\css\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\css\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\css\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\css\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\jquery.collapsible.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.collapsible.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\jquery.countTo.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countTo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Q0o0Q\\Desktop\\亦思\\Case\\New\\WebApplication1\\WebApplication1\\wwwroot\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

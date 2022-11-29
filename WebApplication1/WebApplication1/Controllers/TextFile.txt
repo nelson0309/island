@@ -1,0 +1,32 @@
+﻿public IEnumerable<UserTable1SelectDto> Get(string name, int? UserId, DateTime? ChangeTime)
+        {
+            var result = _islandContext.UserTable1s
+                .Select(a => new UserTable1SelectDto
+            {
+                UserId = a.UserId,
+                UserName = a.UserName,
+                UserSex = a.UserSex,
+                Email = a.Email,
+                Phone = a.Phone,
+                CellPhone = a.CellPhone,
+                Area = a.Area,
+                Ability = a.Ability,
+                ChangeTime = a.ChangeTime,
+            });
+
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                result = result.Where(a => a.UserName.Contains(name));
+            }
+            if (UserId != null)
+            {
+                result = result.Where(a => a.UserId == UserId);
+            }
+
+            if (ChangeTime != null)
+            {
+                result = result.Where(a => a.ChangeTime.Date == ChangeTime);
+            }
+
+            return result;
+        }

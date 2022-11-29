@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Delete</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="button" id="btnDelete" value="刪除" />
+        <span id="msg"></span>
+    </div>
+
+    <script type="text/javascript">
+        $("#btnDelete").click(function () {
+            $.ajax({
+                //請求模式
+                type: "delete",
+                //請求的URL
+                url: "api/UserTable1/1000006",
+                //預期server responde的資料型態
+                dataType: "text",
+                success: function (result) {
+                    $("#msg").text(result);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

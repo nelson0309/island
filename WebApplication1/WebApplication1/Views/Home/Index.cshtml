@@ -1,0 +1,125 @@
+﻿@model IEnumerable<WebApplication1.Models.UserTable1>
+@{
+    ViewBag.Title = "Index";
+    string classCAT = "";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="Index-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="Index-aboutus-header">
+                        <div class="entry-header">
+                            <div class="entry-title">
+                                <h2>人才清單</h2>
+                                <form role="form">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-check form-check-inline">
+                                                <h3 style="color:black;font-size:20px;font-weight:700;">代碼查詢：</h3>
+                                                @*<label for="popular" style="color: black;">
+                                                    <input type="radio" name="category" id="all" class="category" value="0">
+                                                    全部
+                                                </label>
+                                                <label for="oneday" style="color: black;">
+                                                    <input type="radio" name="category" id="code" class="category" value="1">
+                                                    代碼
+                                                </label>
+                                                <label for="oneday" style="color: black;">
+                                                    <input type="radio" name="category" id="name" class="category" value="2">
+                                                    姓名
+                                                </label>
+                                                <label for="oneday" style="color: black;">
+                                                    <input type="radio" name="category" id="date" class="category" value="3">
+                                                    日期區間
+                                                </label>*@
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="searchBox">
+                                    <input class="searchInput" type="text" name="" placeholder="輸入關鍵字" id="search">
+                                    <br><br><br><br>
+                                </div>
+                            </div><!-- entry-title -->
+                        </div>
+
+                        <div class="row Event-list-page ">
+                            @*  Event-list-page *@
+                            @foreach (var item in Model)
+                            {
+                                classCAT = item.UserName;
+
+                                var Dt = item.ChangeTime.ToString("yyyy/MM/dd");
+
+                                <style id="search_style"></style>
+                                <div class="col-12 col-md-6 single-event-content visible @classCAT">
+                                    <div class="Event-content searchable" data-index="@item.UserId">
+                                        <div class="entry-content">
+                                            <div class="entry-description ">
+                                                <a class="">代碼: @item.UserId</a>
+                                                <h3>@Html.ActionLink(item.UserName, "Details", new { id = item.UserId })</h3>
+                                            </div> @*entry-header*@
+                                            <div class="entry-description">
+                                                <p>能力: @item.Ability</p>
+                                            </div> @*entry-description*@
+                                            <div class="entry-description">
+                                                <p>狀態: @item.UseState</p>
+                                            </div> @*entry-description*@
+                                            <div class="entry-description">
+                                                <p>修改時間:@Dt</p>
+                                                <br><br><br>
+                                            </div> @*entry-description*@
+                                        </div> @*entry-content*@
+                                    </div>
+                                    @*</form>*@
+                                </div> @*col-6*@
+                            }
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+<script>
+
+    $('.category').on('click', function () {
+        $('.Nelson, .Nelson1, .Nelson2').css('display', 'none');
+        $('.category').each(function () {
+            var val = $(this).val();
+            if ($(this).is(':checked')) {
+                if (val == '0') {
+                    $('.act_popular .act_casual, .act_education, .act_art, .act_oneday').css('display', 'block');
+                } else if (val == '1') {
+                    $('.Nelson').css('display', 'block');
+                } else if (val == '2') {
+                    $('.Nelson1').css('display', 'block');
+                } else if (val == '3') {
+                    $('.Nelson2').css('display', 'block');
+                }
+            }
+        });
+    });
+
+    var searchStyle = document.getElementById('search_style');
+    document.getElementById('search').addEventListener('input', function () {
+        if (!this.value) {
+            searchStyle.innerHTML = "";
+            return;
+        }
+        // look ma, no indexOf!
+        searchStyle.innerHTML = ".searchable:not([data-index*=\"" + this.value.toLowerCase() + "\"]) { display: none; }";
+        // beware of css injections!
+    });
+</script>
